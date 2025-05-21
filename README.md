@@ -2,10 +2,10 @@
 
 <div align="center">
 
-[!Contributors][contributors-shield][contributors-url]
-[!Forks][forks-shield][forks-url]
-[!Stargazers][stars-shield][stars-url]
-[!Issues][issues-shield][issues-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
 <a href="">
   <img width="300px" src="" alt="Logo" width="800" />
@@ -119,16 +119,20 @@ Te recomendamos consultar nuestra [guía de contribución](https://github.com/bi
 
 [astro-url]: https://astro.build/
 [astro-badge]: https://img.shields.io/badge/Astro-fff?style=for-the-badge&logoColor=bd303a&color=352563
-
 [typescript-url]: https://www.typescriptland.org/
 [typescript-badge]: https://img.shields.io/badge/Typescript-007ACC?style=for-the-badge&logo=typescript&logoColor=white&color=blue
-
 [css-url]: https://developer.mozilla.org/es/docs/Web/CSS
 [css-badge]: https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white&color=blue
-
 [javascript-url]: https://developer.mozilla.org/es/docs/Web/JavaScript
 [javascript-badge]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-
-
 [deno-url]: https://deno.com
 [deno-badge]: https://img.shields.io/badge/Deno-000?style=for-the-badge&logo=deno&logoColor=fff
+
+[contributors-shield]: https://img.shield.io/github/contributors/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[contributors-url]: https://github.com/binarybrains-upiicsa/Hacktion/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/bianrybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[forks-url]: https://github.com/binarybrains-upiicsa/Hacktion/network/members
+[stars-shield]: https://ims.shields.io/github/stars/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[stars-url]: https://github.com/binarybrains-upiicsa/Hacktion/stargazers
+[issues-shield]: https://img.shields.io/github/issues/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[issues-url]: https://github.com/binarybrains-upiicsa/Hacktion/issues
