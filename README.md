@@ -128,11 +128,11 @@ Te recomendamos consultar nuestra [guía de contribución](https://github.com/bi
 [deno-url]: https://deno.com
 [deno-badge]: https://img.shields.io/badge/Deno-000?style=for-the-badge&logo=deno&logoColor=fff
 
-[contributors-shield]: https://img.shield.io/github/contributors/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
 [contributors-url]: https://github.com/binarybrains-upiicsa/Hacktion/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/bianrybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
 [forks-url]: https://github.com/binarybrains-upiicsa/Hacktion/network/members
-[stars-shield]: https://ims.shields.io/github/stars/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
 [stars-url]: https://github.com/binarybrains-upiicsa/Hacktion/stargazers
 [issues-shield]: https://img.shields.io/github/issues/binarybrains-upiicsa/Hacktion.svg?style=for-the-badge
 [issues-url]: https://github.com/binarybrains-upiicsa/Hacktion/issues
