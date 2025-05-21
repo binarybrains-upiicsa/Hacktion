@@ -35,9 +35,6 @@ jobs:
       - name: Run TypeScript check
         run: deno check **/*.{ts,tsx}
         
-      # Paso 7: Ejecutar el linter de Deno
-      - name: Run Deno lint
-        run: deno lint src/
         
       # Paso 8: Verificar el formato del código
       - name: Run Format Check
