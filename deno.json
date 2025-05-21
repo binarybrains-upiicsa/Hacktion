@@ -1,0 +1,29 @@
+{
+  "tasks": {
+    "npm:install": "deno run -A npm:npm install",
+    "lint": "deno run -A npm:eslint src --ext .js,.jsx,.ts,.tsx,.astro"
+  },
+  "lint": {
+    "include": ["src/"],
+    "exclude": ["node_modules/", "dist/", ".astro/"],
+    "rules": {
+      "tags": ["recommended"],
+      "include": [
+        "no-unused-vars",
+        "no-explicit-any",
+        "no-const-assign",
+        "no-duplicate-imports",
+        "no-unreachable",
+        "no-var",
+        "prefer-const",
+        "prefer-template"
+      ]
+    }
+  },
+  "fmt": {
+    "include": ["src/"],
+    "exclude": ["node_modules/", "dist/", ".astro/"],
+    "lineWidth": 100,
+    "indentWidth": 2
+  }
+}
