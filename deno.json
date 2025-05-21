@@ -15,8 +15,6 @@
     }
   },
   "fmt": {
-    "include": ["src/"],
-    "exclude": ["node_modules/", "dist/", ".astro/"],
     "lineWidth": 100,
     "indentWidth": 2
   }
