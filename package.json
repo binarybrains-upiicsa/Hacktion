@@ -10,12 +10,18 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.7",
+    "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/vite": "^4.1.7",
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "astro": "^5.7.13",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.7"
+    "tailwind-merge": "^3.3.0",
+    "tailwindcss": "^4.1.7",
+    "tw-animate-css": "^1.3.0"
   }
 }

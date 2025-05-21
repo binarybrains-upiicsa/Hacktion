@@ -2,13 +2,19 @@
   "version": "5",
   "specifiers": {
     "npm:@astrojs/react@^4.2.7": "4.2.7_@types+react@19.1.4_@types+react-dom@19.1.5__@types+react@19.1.4_react@19.1.0_react-dom@19.1.0__react@19.1.0_vite@6.3.5__picomatch@4.0.2",
+    "npm:@radix-ui/react-slot@^1.2.3": "1.2.3_@types+react@19.1.4_react@19.1.0",
     "npm:@tailwindcss/vite@^4.1.7": "4.1.7_vite@6.3.5__picomatch@4.0.2",
     "npm:@types/react-dom@^19.1.5": "19.1.5_@types+react@19.1.4",
     "npm:@types/react@^19.1.4": "19.1.4",
     "npm:astro@^5.7.13": "5.7.13_vite@6.3.5__picomatch@4.0.2_zod@3.25.12",
+    "npm:class-variance-authority@~0.7.1": "0.7.1",
+    "npm:clsx@^2.1.1": "2.1.1",
+    "npm:lucide-react@0.511": "0.511.0_react@19.1.0",
     "npm:react-dom@^19.1.0": "19.1.0_react@19.1.0",
     "npm:react@^19.1.0": "19.1.0",
-    "npm:tailwindcss@^4.1.7": "4.1.7"
+    "npm:tailwind-merge@^3.3.0": "3.3.0",
+    "npm:tailwindcss@^4.1.7": "4.1.7",
+    "npm:tw-animate-css@^1.3.0": "1.3.0"
   },
   "npm": {
     "@ampproject/remapping@2.3.0": {
@@ -527,6 +533,27 @@
     },
     "@oslojs/encoding@1.1.0": {
       "integrity": "sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ=="
+    },
+    "@radix-ui/react-compose-refs@1.1.2_@types+react@19.1.4_react@19.1.0": {
+      "integrity": "sha512-z4eqJvfiNnFMHIIvXP3CY57y2WJs5g2v3X0zm9mEJkrkNv4rDxu+sg9Jh8EkXyeqBkB7SOcboo9dMVqhyrACIg==",
+      "dependencies": [
+        "@types/react",
+        "react"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
+    },
+    "@radix-ui/react-slot@1.2.3_@types+react@19.1.4_react@19.1.0": {
+      "integrity": "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A==",
+      "dependencies": [
+        "@radix-ui/react-compose-refs",
+        "@types/react",
+        "react"
+      ],
+      "optionalPeers": [
+        "@types/react"
+      ]
     },
     "@rollup/pluginutils@5.1.4": {
       "integrity": "sha512-USm05zrsFxYLPdWWq+K3STlWiT/3ELn3RcV5hJMghpeAIhxfsUIg6mt12CBJBInWMV4VneoV7SfGv8xIwo2qNQ==",
@@ -1085,6 +1112,12 @@
     "ci-info@4.2.0": {
       "integrity": "sha512-cYY9mypksY8NRqgDB1XD1RiJL338v/551niynFTGkZOO2LHuB2OmOYxDIe/ttN9AHwrqdum1360G3ald0W9kCg=="
     },
+    "class-variance-authority@0.7.1": {
+      "integrity": "sha512-Ka+9Trutv7G8M6WT6SeiRWz792K5qEqIGEGzXKhAE6xOWAY6pPH8U+9IY3oCMv6kqTmLsv7Xh/2w2RigkePMsg==",
+      "dependencies": [
+        "clsx"
+      ]
+    },
     "cli-boxes@3.0.0": {
       "integrity": "sha512-/lzGpEWL/8PfI0BmBOPRwp0c/wFNX1RdUML3jK/RcSBA9T8mZDdQpqYBKtCFTOfQbwPqWEOpjqW+Fnayc0969g=="
     },
@@ -1608,6 +1641,12 @@
       "integrity": "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==",
       "dependencies": [
         "yallist@3.1.1"
+      ]
+    },
+    "lucide-react@0.511.0_react@19.1.0": {
+      "integrity": "sha512-VK5a2ydJ7xm8GvBeKLS9mu1pVK6ucef9780JVUjw6bAjJL/QXnd4Y0p7SPeOUMC27YhzNCZvm5d/QX0Tp3rc0w==",
+      "dependencies": [
+        "react"
       ]
     },
     "magic-string@0.30.17": {
@@ -2436,6 +2475,9 @@
         "ansi-regex@6.1.0"
       ]
     },
+    "tailwind-merge@3.3.0": {
+      "integrity": "sha512-fyW/pEfcQSiigd5SNn0nApUOxx0zB/dm6UDU/rEwc2c3sX2smWUNbapHv+QRqLGVp9GWX3THIa7MUGPo+YkDzQ=="
+    },
     "tailwindcss@4.1.7": {
       "integrity": "sha512-kr1o/ErIdNhTz8uzAYL7TpaUuzKIE6QPQ4qmSdxnoX/lo+5wmUHQA6h3L5yIqEImSRnAAURDirLu/BgiXGPAhg=="
     },
@@ -2481,6 +2523,9 @@
     },
     "tslib@2.8.1": {
       "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="
+    },
+    "tw-animate-css@1.3.0": {
+      "integrity": "sha512-jrJ0XenzS9KVuDThJDvnhalbl4IYiMQ/XvpA0a2FL8KmlK+6CSMviO7ROY/I7z1NnUs5NnDhlM6fXmF40xPxzw=="
     },
     "type-fest@4.41.0": {
       "integrity": "sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA=="
@@ -2739,13 +2784,19 @@
     "packageJson": {
       "dependencies": [
         "npm:@astrojs/react@^4.2.7",
+        "npm:@radix-ui/react-slot@^1.2.3",
         "npm:@tailwindcss/vite@^4.1.7",
         "npm:@types/react-dom@^19.1.5",
         "npm:@types/react@^19.1.4",
         "npm:astro@^5.7.13",
+        "npm:class-variance-authority@~0.7.1",
+        "npm:clsx@^2.1.1",
+        "npm:lucide-react@0.511",
         "npm:react-dom@^19.1.0",
         "npm:react@^19.1.0",
-        "npm:tailwindcss@^4.1.7"
+        "npm:tailwind-merge@^3.3.0",
+        "npm:tailwindcss@^4.1.7",
+        "npm:tw-animate-css@^1.3.0"
       ]
     }
   }
