@@ -41,4 +41,4 @@ jobs:
         
       # Paso 8: Verificar el formato del código
       - name: Run Format Check
-        run: deno fmt --check src/
+        run: deno fmt --check .
