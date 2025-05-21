@@ -21,10 +21,8 @@ jobs:
         with:
           deno-version: v2.x
           
-      # Paso 3: Instalar dependencias de npm usando Deno
-      - name: Install node_modules with Deno
-        run: deno task npm:install
-        
+      - name: Install packages
+        run: deno install
       # Paso 4: Ejecutar ESLint para verificar el código
       - name: Run ESLint
         run: deno task lint
