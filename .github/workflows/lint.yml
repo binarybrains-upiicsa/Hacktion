@@ -17,9 +17,9 @@ jobs:
 
       # Paso 2: Configurar Deno en el runner
       - name: Setup Deno
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
           
       # Paso 3: Instalar dependencias de npm usando Deno
       - name: Install node_modules with Deno
