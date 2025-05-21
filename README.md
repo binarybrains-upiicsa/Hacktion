@@ -2,10 +2,10 @@
 
 <div align="center">
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[!Contributors][contributors-shield][contributors-url]
+[!Forks][forks-shield][forks-url]
+[!Stargazers][stars-shield][stars-url]
+[!Issues][issues-shield][issues-url]
 
 <a href="">
   <img width="300px" src="" alt="Logo" width="800" />
