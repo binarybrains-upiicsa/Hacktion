@@ -24,8 +24,8 @@ jobs:
       - name: Install packages
         run: deno install
       # Paso 4: Ejecutar ESLint para verificar el código
-      - name: Run ESLint
-        run: deno task lint
+      - name: Run lint
+        run: deno lint
         
       # Paso 5: Verificar la configuración de Astro
       - name: Check Astro
