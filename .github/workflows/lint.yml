@@ -29,7 +29,7 @@ jobs:
         
       # Paso 5: Verificar la configuración de Astro
       - name: Check Astro
-        run: deno run --allow-read --allow-run --allow-env --allow-net npm:astro check
+        run: deno run -A npm:astro check
         
       # Paso 6: Verificar tipos de TypeScript
       - name: Run TypeScript check
