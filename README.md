@@ -31,6 +31,7 @@ El hacktion es un evento del tipo hackaton donde se resolverán problemas con la
   - [Repositorios](#repositorio)
     - [Básico](#básicos)
     - [Bifurcación](#bifurcación)
+    - [Descarga](#descarga-local)
 - [🛠️ Stack](#️-stack)
 
 </details>
@@ -138,6 +139,43 @@ Los elemntos que tocaremos son:
 - **Actions** → Apartado para ver ***TODAS LAS ACCIONES*** que se han hecho en el repositorio por todos los contribuyentes.
 
 #### Bifurcación
+
+Una *bifurcación* -o *fork*- es algo no tan complejo pero te lo explicaré de manera simple :D
+Digamos que tienes un arbol, en ese arbol puedes ver varias ramas (*branch*) y cada una es una variante del repositorio pero le pertenece a distintas personas. Cuando uno quiera tener una copia del repositorio, o realizar una colaboración, va a crear una nueva copia de este arbol inmenso para poder tener sus propios cambios y ramas en un lugar seguro para que el propietario del tronco del arbol verifique si añadir o no una rama sin que el propietario de la ramita pierda su avance o lo que propone, si se lo rechazan el propietario de la ramita se quedará con lo que hizo sin el riesgo de perderlo.
+
+Para hacer esto vamos a colocarnos en la sección de "*Code*".
+
+<a href="">
+  <img width="300px" src="" alt="code-section" width="800" />
+</a>
+
+1. Vamos a generar nuestra propia variante de este arbol presionando el ***Fork***.
+<a href="">
+  <img width="300px" src="" alt="fork-button-1" width="800" />
+</a>
+
+2. Se desplegará un mini menú y seleccionaremos "*Create a new fork*" para hacer la nueva ramita :D
+<a href="">
+  <img width="300px" src="" alt="fork-button-2" width="800" />
+</a>
+
+3. Se abrira un nuevo menú, en este menú vamos a establecer el nombre que le designaremos al repositorio -te recomiendo dejarlo igual para evitar problemas y confusiones-, la copia de la descripción -que es opcional-, y el apartado donde nos marca por default el copiar solo el branch '*main*'. Yo recomiendo que dejes esta opción habilitada con tan de evitar problemas y solo edites lo que piensas cambiar dado que podría suceder que tenga tantas ramas este arbol que estas copiando que temrines perdiendote en cual es la tuya y que versión es.
+<a href="">
+  <img width="300px" src="" alt="fork-menu-1" width="800" />
+</a>
+
+4. Una vez tenemos todo configurado, vamos a presionar el botón verde que dice "*Create fork*" y esperaremos a que genere nuestra copia del arbo. Deja que GitHub lo plante, crezca y se asegure de que todo queda tal y como lo que quisiste copiar.
+<a href="">
+  <img width="300px" src="" alt="fork-generate-1" width="800" />
+</a>
+
+<a href="">
+  <img width="300px" src="" alt="fork-generate-2" width="800" />
+</a>
+
+5. ¡Listo, ya tienes la copia del repositorio! Ahora que lo tienes ya podemos pasar a copiar y descargar este repositorio de lo que es GitHub a lo que sería el dispositivo donde estarías rompiendo cositas.
+
+#### Descarga Local
 
 
 
