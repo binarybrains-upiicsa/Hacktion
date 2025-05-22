@@ -1,0 +1,13 @@
+name: Issue Tagging
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply tags to issues
+        uses: autor/issue-labeler@versión
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
