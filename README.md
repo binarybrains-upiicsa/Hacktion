@@ -155,21 +155,25 @@ Para hacer esto vamos a colocarnos en la sección de "*Code*".
 </a>
 
 1. Vamos a generar nuestra propia variante de este arbol presionando el ***Fork***.
+
 <a href="">
   <img width="300px" src="" alt="fork-button-1" width="800" />
 </a>
 
 2. Se desplegará un mini menú y seleccionaremos "*Create a new fork*" para hacer la nueva ramita :D
+
 <a href="">
   <img width="300px" src="" alt="fork-button-2" width="800" />
 </a>
 
 3. Se abrira un nuevo menú, en este menú vamos a establecer el nombre que le designaremos al repositorio -te recomiendo dejarlo igual para evitar problemas y confusiones-, la copia de la descripción -que es opcional-, y el apartado donde nos marca por default el copiar solo el branch '*main*'. Yo recomiendo que dejes esta opción habilitada con tan de evitar problemas y solo edites lo que piensas cambiar dado que podría suceder que tenga tantas ramas este arbol que estas copiando que temrines perdiendote en cual es la tuya y que versión es.
+
 <a href="">
   <img width="300px" src="" alt="fork-menu-1" width="800" />
 </a>
 
 4. Una vez tenemos todo configurado, vamos a presionar el botón verde que dice "*Create fork*" y esperaremos a que genere nuestra copia del arbo. Deja que GitHub lo plante, crezca y se asegure de que todo queda tal y como lo que quisiste copiar.
+
 <a href="">
   <img width="300px" src="" alt="fork-generate-1" width="800" />
 </a>
@@ -267,6 +271,7 @@ Ahora lo bueno, vamos a ver como puedes hacer tu pull para que le brindes tus me
 2. Te va a mostrar una nueva interfaz donde te solicitará poner un titulo y la descripción. En el titulo tienes que seguir las [recomendaciones de GitHub](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) para subir con el lint adecuado, tambien puedes buscarlos en internet.
 
 3. Podrás ver un botón verde que dice "***Create pull request***", este botón va a generar el *pull request* por lo que ya quedaría lista tu contribución para revisión, ya los administradores verificarán us cambios y decidirán si agregarlo o no además de poder agregar comentarios para algún cambio extra.
+
 
 
 ## 🛠️ Stack
