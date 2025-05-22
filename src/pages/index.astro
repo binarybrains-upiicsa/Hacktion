@@ -1,20 +1,10 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
 import { Button } from "@/components/ui/button";
 
 import "../styles/global.css";
-
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Hola con astro</h1>
-		<Button>Hola</Button>
-	</body>
-</html>
+<BaseLayout>
+    <h1>Hola con astro</h1>
+    <Button>Hola</Button>
+</BaseLayout>

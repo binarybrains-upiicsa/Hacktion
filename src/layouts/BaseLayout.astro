@@ -1,0 +1,73 @@
+---
+import "../styles/global.css";
+
+const BASE = "https://binarybrains-upiicsa.github.io/hacktion";
+const DEFAULT_KEYWORDS = [
+  "hacktion",
+  "notion",
+  "binarybrains",
+  "upiicsa",
+];
+
+//TODO: Add path for the ogImag
+
+const ogImage = {
+  path: `${BASE}/favicon.svg`,
+  alt: "A logo of the hackathon event, Hacktion",
+};
+
+interface Props {
+  title: string;
+  description?: string;
+  keywords?: string[];
+  canonical?: URL;
+}
+
+const {
+  title,
+  description,
+  keywords = DEFAULT_KEYWORDS,
+  canonical,
+} = Astro.props;
+---
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+
+    <base href={BASE} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta property="og:title" content={title} />
+
+    {canonical && <link rel="canonical" href={canonical.toString()} />}
+
+    {
+      description && (
+        <>
+          <meta property="og:description" content={description} />
+          <meta name="twitter:description" content={description} />
+          <meta name="description" content={description} />
+        </>
+      )
+    }
+
+    <meta name="twitter:image" content={ogImage.path} />
+    <meta name="twitter:image:alt" content={ogImage.alt} />
+    <meta property="og:image" content={ogImage.path} />
+    <meta property="og:image:alt" content={ogImage.alt} />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="hacktion" />
+    <meta property="og:locale" content="es_MX" />
+
+    <meta name="keywords" content={keywords.join(", ")} />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
