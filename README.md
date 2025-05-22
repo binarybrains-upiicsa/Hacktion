@@ -138,6 +138,9 @@ Los elemntos que tocaremos son:
 - **Pull request** → Aquí podriamos ver quienes ya han realizado cambios y de que tipo.
 - **Actions** → Apartado para ver ***TODAS LAS ACCIONES*** que se han hecho en el repositorio por todos los contribuyentes.
 
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+
 #### Bifurcación
 
 Una *bifurcación* -o *fork*- es algo no tan complejo pero te lo explicaré de manera simple :D
@@ -175,7 +178,33 @@ Para hacer esto vamos a colocarnos en la sección de "*Code*".
 
 5. ¡Listo, ya tienes la copia del repositorio! Ahora que lo tienes ya podemos pasar a copiar y descargar este repositorio de lo que es GitHub a lo que sería el dispositivo donde estarías rompiendo cositas.
 
+<p align="right">(<a href="#readme-top">volver arriba</a>)</p>
+
+
 #### Descarga Local
+La descarga local nos va a permitir poder hacer los cambios y actualizaciones de programas, archivos y carpetas con el fin de poder inclusive per la estrutura interna de aplicaciones y modificarla para poderla probar de manera local, asegurandonos de que funcionará como deseamos y no va a romper todo -no queremo un CrowdSrtike 2, ¿o si? 👀-
+
+1. Localiza el botón verde "*<> Code*", este botón va a ser nuestro inicio para toda la descarga.
+<a href="">
+  <img width="300px" src="" alt="general-menu-1" width="800" />
+</a>
+
+2. Vas a ver un menú con dos apartados, "*Local*" y "Codespaces". El que nos interesa es "*Local*" ya que el segundo sería en línea y, pues no buscamos eso. Estando en el apartado que nos interesa veremos lo que es *HTTPS*, *SSH* y *GitHub CLI*; aquí seleccionaremos la opción *HTTPS* y copiaremos ese link para poder aplicar el paso *1* de [Instalación](#instalación) en nuestro IDE.
+<a href="">
+  <img width="300px" src="" alt="vsc-screen" width="800" />
+</a>
+
+3. Como se puede ver, yo estoy usando VSC. Si están usando VSC se recomiendan ciertas extensiones para el IDE y que pueda verse más estilizado o sea compatible con lenguajes. En lo que nos enfocaremos es el apartado del ***Explorador*** donde buscaremos el botón *Clonar repositorio*, le daremos click y este nos pedirá el link de GitHub -el cual copiamos anteriormente-.
+<a href="">
+  <img width="300px" src="" alt="vsc-clone-1" width="800" />
+</a>
+
+4. Abrirá una ventana para seleccionar donde guardará todo lo que va a descargar el repositorio. Aquí ya depende de ti, yo recomiendo que tengas tu carpeta destinada para proyectos y así facilitar su uso :D
+<a href="">
+  <img width="300px" src="" alt="vsc-clone-2" width="800" />
+</a>
+
+5. Una vez hayas guardado ya estarás list@ para poder ver todo tu proyecto en el IDE y así ya poder editar lo que requieras :D
 
 
 
