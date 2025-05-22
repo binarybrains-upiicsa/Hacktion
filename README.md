@@ -27,6 +27,10 @@ El hacktion es un evento del tipo hackaton donde se resolverán problemas con la
   - [Instalación](#instalación)
   - [Arranque de servidor de desarrollo](#arranque-de-servidor-de-desarrollo)
 - [Contribuir al proyecto](#contribuir-al-proyecto)
+- [Principantes](#principantes)
+  - [Repositorios](#repositorio)
+    - [Básico](#básicos)
+    - [Bifurcación](#bifurcación)
 - [🛠️ Stack](#️-stack)
 
 </details>
@@ -105,6 +109,35 @@ Te recomendamos consultar nuestra [guía de contribución](https://github.com/bi
 **¡Gracias a todos los que colaboraron a hacer este proyecto posible!**
 
 [![Contribuidores](https://contrib.rocks/image?repo=binarybrains-upiicsa/Hacktion)](https://github.com/binarybrains-upiicsa/Hacktion/graphs/contributors)
+
+
+
+## Principiantes
+
+> [!Note]
+> Este apartado está destinado para mayor explicación a los programadores junior sin experiencia.
+
+>¡Hola! Soy Kai Yazumorito, el developer junior encargado de hacer este **README** y vengo a darte unas recomendaciones porque sé que tan difícil de entender y hacerlo (lo digo por experiencia, me enquivoque demasiadas veces :D)
+
+
+Para aquellos _beginners_, _juniors_ o personas que apenas empiezan a poner a prueba sus conocimientos, este es tu lugar para poder entender mejor como realizar lo básico que es descargar el repositorio, qué es un "_fork_" y cómo hacerlo, los comandos necesarios o básicos -según mi parecer-, realizar las contribuciones y que no se vean tantos problemas.
+
+### Repositorio
+---
+#### Básicos
+
+Para lo inicial es tener en cuenta que el repositorio es este lugar desde donde lees este documento, por lo que te felicito ya que lograste llegar al repositorio, puedes ver varios botones y secciones pero, como una guía rápida, solo tocaremos unas cuantas secciones y botones para poder realizar los movimientos necesarios.
+
+Los elemntos que tocaremos son:
+- **Code** → Para lo que va a ser descarga del repositorio en los dispositivos (o trabajo en línea -usalo como ultimo recuerso-)
+- **Switch branches/tags** → Apartado donde podremos modificar las distintas ramas o variaciones de versión para nuestras actualizaciones
+- **Fork** → Nos permitirá poder hacer bifurcaciones -copias, para los amigos :D-, será igual un seguro extra para las contribuciones
+- **Star** → Sirve para poder marcar como "favorito" y guardar el repositorio (no lo usaremos como tal pero es bueno saberlo :D)
+- **Issues** → Esta es la sección del repositorio para poder ver las tareas a realizar.
+- **Pull request** → Aquí podriamos ver quienes ya han realizado cambios y de que tipo.
+- **Actions** → Apartado para ver ***TODAS LAS ACCIONES*** que se han hecho en el repositorio por todos los contribuyentes.
+
+#### Bifurcación
 
 
 
