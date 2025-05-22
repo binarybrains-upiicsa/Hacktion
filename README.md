@@ -32,6 +32,7 @@ El hacktion es un evento del tipo hackaton donde se resolverán problemas con la
     - [Básico](#básicos)
     - [Bifurcación](#bifurcación)
     - [Descarga](#descarga-local)
+    - [Actualizaciones](#actualizaciones)
 - [🛠️ Stack](#️-stack)
 
 </details>
@@ -206,6 +207,50 @@ La descarga local nos va a permitir poder hacer los cambios y actualizaciones de
 
 5. Una vez hayas guardado ya estarás list@ para poder ver todo tu proyecto en el IDE y así ya poder editar lo que requieras :D
 
+<p align="right">(<a href="#readme-top">volver arriba</<a>)</p>
+
+
+#### Actualizaciones
+
+Ok, ahora vamos a ver como actualizar los cambios que haces en todo el proyecto para subirlos a tu repositorio :D
+
+1. Abre la terminal en la carpeta donde se guardo tu proyecto, debe ser toda la dirección de carpetas hasta llegar al proyecto vas a iniciar de forma incorrecta el proceso.
+<a>
+  <img width="300px" src="" alt="vsc-terminal-1" width="800" />
+</a>
+
+2. Escribiras el comando `git initi` para que el sistemaingrese la carpeta *`.git`*.
+
+3. Escribe el comando `git status`, esto es con el fin de solamente saber que cambios detecta que tienes con diferencia al repositorio.
+
+4. Escribe el comando `git add --all`, esto es para que agregue todos los cambios y no tengas que ir uno por uno -solo que no estarán aun en el repositorio-.
+
+5. Escribe el comando `git commit -m " "`, es para hacer el commit de tus cambios en el repositorio.
+
+> [!Note]
+> En la parte interior de las comillas debes agregar la razón del cambio.
+
+6. Escribe el comando `git branch`, esto con el fin de ver las ramas que se tienen.
+
+> [!Warning]
+> No se tendrán las mismas ramas en tu dispositivo que en la plataforma de GitHub por lo que no te asustes si aparecen distintas ramas.
+
+7. Escribe el comando `git push origin ...`, esto es para generar la nueva rama donde estarás subiendo los cambios que estás editando.
+
+<a>
+  <img width="300px" src="" alt="git-comands" width="800" />
+</a>
+
+> [!Note]
+> Sustituye los tres puntos (...) del comando por el nombre de tu "*branch*"
+
+8. Comprueba que los cambios esten realizados yendo a la página de GitHub, tu repositorio y en el menú selector que dice "*main*" dar un click para que despligue los nombres de las ramas que están en plataforma, solo busca la rama donde estabas editando todo.
+
+<a>
+  <img width="300px" src="" alt="github-branches" width="800" />
+</a>
+
+9. ¡Listo! Ya tienes tus cambios en GitHub y están registrados para que podamos pasar a hacer las contribuciones.
 
 
 ## 🛠️ Stack
