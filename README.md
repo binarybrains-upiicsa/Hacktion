@@ -33,6 +33,7 @@ El hacktion es un evento del tipo hackaton donde se resolverán problemas con la
     - [Bifurcación](#bifurcación)
     - [Descarga](#descarga-local)
     - [Actualizaciones](#actualizaciones)
+  - [Contribuciones](#contribuciones)
 - [🛠️ Stack](#️-stack)
 
 </details>
@@ -252,6 +253,20 @@ Ok, ahora vamos a ver como actualizar los cambios que haces en todo el proyecto 
 
 9. ¡Listo! Ya tienes tus cambios en GitHub y están registrados para que podamos pasar a hacer las contribuciones.
 
+### Contribuciones
+---
+#### Pull Request (*PR*)
+
+Ahora lo bueno, vamos a ver como puedes hacer tu pull para que le brindes tus mejoras a los propietarios del arbol original 👀
+
+1. En tu repositorio, verás un recuadro amarillo con un botón que dice "***Compare & pull request***". Le darás a ese botón.
+<a>
+  <img width="300px" src="" alt="github-pul-repo" width="800" />
+</a>
+
+2. Te va a mostrar una nueva interfaz donde te solicitará poner un titulo y la descripción. En el titulo tienes que seguir las [recomendaciones de GitHub](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) para subir con el lint adecuado, tambien puedes buscarlos en internet.
+
+3. Podrás ver un botón verde que dice "***Create pull request***", este botón va a generar el *pull request* por lo que ya quedaría lista tu contribución para revisión, ya los administradores verificarán us cambios y decidirán si agregarlo o no además de poder agregar comentarios para algún cambio extra.
 
 
 ## 🛠️ Stack
