@@ -99,7 +99,7 @@ Aquí te dejamos una guía rápida:
 6. Haz Push a la Rama (`git push origin feature/CambioComún`)
 7. Abre una [_pull request_](https://github.com/binarybrains-upiicsa/Hacktion/pulls).
 
-Te recomendamos consultar nuestra [guía de contribución](https://github.com/binarybrains-upiicsa/Hacktion/) para que conozcas la mejor forma de empezar y siguiendo [buenas prácticas](https://github.com/binarybrains-upiicsa/).
+Te recomendamos consultar la [guía de contribución](https://opensource.guide) para que conozcas la mejor forma de empezar y siguiendo [buenas prácticas](https://github.com/binarybrains-upiicsa/).
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
