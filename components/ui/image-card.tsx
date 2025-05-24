@@ -1,10 +1,10 @@
-import { cn } from "@/lib/utils"
+import { cn } from "@/lib/utils";
 
 type Props = {
-  imageUrl: string
-  caption: string
-  className?: string
-}
+  imageUrl: string;
+  caption: string;
+  className?: string;
+};
 
 export default function ImageCard({ imageUrl, caption, className }: Props) {
   return (
@@ -19,5 +19,5 @@ export default function ImageCard({ imageUrl, caption, className }: Props) {
         {caption}
       </figcaption>
     </figure>
-  )
+  );
 }
