@@ -1,0 +1,21 @@
+{
+  "lint": {
+    "rules": {
+      "tags": ["recommended", "jsx"],
+      "include": [
+        "no-unused-vars",
+        "no-explicit-any",
+        "no-const-assign",
+        "no-duplicate-imports",
+        "no-unreachable",
+        "no-var",
+        "prefer-const",
+        "prefer-template"
+      ]
+    }
+  },
+  "fmt": {
+    "lineWidth": 100,
+    "indentWidth": 2
+  }
+}
