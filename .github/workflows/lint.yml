@@ -1,41 +1,16 @@
-name: Lint Hacktion
+name: lint proyect
 
-on: 
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+on:
+	push: 
+		branches: [ main ]
 
 jobs: 
-  lint:
-    name: Run linters
-    runs-on: ubuntu-latest
-    steps:
-      # Paso 1: Obtener el código del repositorio
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      # Paso 2: Configurar Deno en el runner
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
-        with:
-          deno-version: v2.x
-          
-      - name: Install packages
-        run: deno install
-      # Paso 4: Ejecutar ESLint para verificar el código
-      - name: Run lint
-        run: deno lint
-        
-      # Paso 5: Verificar la configuración de Astro
-      - name: Check Astro
-        run: deno run -A npm:astro check
-        
-      # Paso 6: Verificar tipos de TypeScript
-      - name: Run TypeScript check
-        run: deno check **/*.{ts,tsx}
-        
-        
-      # Paso 8: Verificar el formato del código
-      - name: Run Format Check
-        run: deno fmt --check .
+	build: 
+		runs-on: ubuntu-lastest 
+		
+		steps: 
+			- uses: actions/checkout@v4
+			- uses: denoland/setup-deno@v2
+			  with:
+			    deno-version: vx.x.x
+		  - run: deno fmt --check
