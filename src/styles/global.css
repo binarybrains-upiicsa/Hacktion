@@ -19,6 +19,8 @@
   --chart-4: #ffbf00;
   --chart-5: #7a83ff;
   --chart-active-dot: #000;
+  --animate-marquee: marquee 5s linear infinite;
+  --animate-marquee2: marquee2 5s linear infinite;
 }
 
 .dark {

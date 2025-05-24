@@ -1,5 +1,10 @@
 ---
 import ImageCard from '@/components/ui/image-card'
+import Marquee from '@/components/ui/marquee'
+
+const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5']
+
+
 
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
@@ -9,5 +14,5 @@ import BaseLayout from "../layouts/BaseLayout.astro";
   caption="Image"
   imageUrl="https://hips.hearstapps.com/hmg-prod/images/flowers-trees-and-bushes-reach-their-peak-of-full-bloom-in-news-photo-1678292967.jpg?resize=300:*"
 ></ImageCard>
-
+<Marquee items={items} client:load />
 </BaseLayout>
