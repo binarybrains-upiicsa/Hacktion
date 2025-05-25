@@ -11,6 +11,7 @@ bug:
   - failure
   - unexpected behavior
   - malfunction
+  - caseSensitive: false
 
 documentation:
   - documentación
