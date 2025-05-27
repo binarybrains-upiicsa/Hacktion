@@ -8,7 +8,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <a href="">
-  <img width="300px" src="" alt="Logo" width="800" />
+  <img width="300px" src="https://github.com/user-attachments/assets/c64a86b6-111a-4aa6-bc44-d7eaa7953d3d" alt="Logo" width="800" />
 </a>
 
 ## Hacktion UPIICSA
