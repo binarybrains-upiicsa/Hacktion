@@ -12,13 +12,13 @@ permissions:
 jobs: 
     build:
         runs-on: ubuntu-lastest 
-      steps: 
+        steps: 
           - name: Clone repository
             uses: actions/checkout@v4
           - name: Install Deno
             uses: denoland/setup-deno@v2
-            with:
-      	      deno-version: v2.x
+            with: 
+                deno-version: v2.x
           - name: Check formating
             run: deno fmt --check
           - name: check lint
