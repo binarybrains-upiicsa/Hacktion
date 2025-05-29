@@ -1,6 +1,3 @@
-name: Descripción de la solicitud de extracción about: Describir el porqué de la
-solicitud de extracción title: "Solicitud de extracción"
-
 # Explica qué modificaciones introduces con este pull request y por qué son necesarias, de manera concisa y comprensible.
 
 Debe tener:
