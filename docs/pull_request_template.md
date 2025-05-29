@@ -1,27 +1,32 @@
-# Explica qué modificaciones introduces con este pull request y por qué son necesarias, de manera concisa y comprensible.
+**Issue que soluciona:** #
 
-Debe tener:
+**Explica qué modificaciones introduces con este pull request y por qué son necesarias, de manera concisa y comprensible.**
 
-*El proposito de los cambios *Que problemas resolvio o que nuevas funciones agrega *Menciona que
-cambios hay en la estructura del codigo *Enumera los cambios
+Considera que debe tener:
 
-# Adicional
+* El proposito de los cambios 
+* Que problemas resolvio o que nuevas funciones agrega 
+* Menciona que cambios hay en la estructura del codigo 
+* Enumera los cambios
 
-*¿Hay algún aspecto particular que los revisores deban tener presente al analizar este pull request?
+**En caso de ser un cambio relacionado con la pagina, agrega capturas del**
 
-*¿Existen recursos, documentación o referencias que puedan ser útiles durante la revisión?
+Antes:
 
-*¿Esta solicitud incluye pruebas, ejemplos o una forma de validar los cambios realizados?
+Despues:
 
-# Etiquetas (Opcional)
 
-*Agrega las etiquetas correspondientes a esta solicitud para ayudar con su organización, seguimiento
-y priorización.
+**Adicional**
 
-#Lista de verificación
+* ¿Hay algún aspecto particular que los revisores deban tener presente al analizar este pull request?
+
+* ¿Existen recursos, documentación o referencias que puedan ser útiles durante la revisión?
+
+* ¿Esta solicitud incluye pruebas, ejemplos o una forma de validar los cambios realizados?
+
+**Lista de verificación**
 
 - [ ] Pruebas superadas
 - [ ] Documentación actualizada
-- [ ] Se probaron los cambios
 
-Gracias por ver esta solicitud, cualquier observación se tomará en cuenta:)
+*Gracias por ver esta solicitud, cualquier observación se tomará en cuenta :)*
