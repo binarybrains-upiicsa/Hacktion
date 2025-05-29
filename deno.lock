@@ -4,6 +4,7 @@
     "npm:@astrojs/react@^4.2.7": "4.2.7_@types+react@19.1.4_@types+react-dom@19.1.5__@types+react@19.1.4_react@19.1.0_react-dom@19.1.0__react@19.1.0_vite@6.3.5__picomatch@4.0.2",
     "npm:@radix-ui/react-slot@^1.2.3": "1.2.3_@types+react@19.1.4_react@19.1.0",
     "npm:@radix-ui/react-tooltip@^1.2.7": "1.2.7_@types+react@19.1.4_@types+react-dom@19.1.5__@types+react@19.1.4_react@19.1.0_react-dom@19.1.0__react@19.1.0",
+    "npm:@tabler/icons-react@^3.33.0": "3.33.0_react@19.1.0",
     "npm:@tailwindcss/vite@^4.1.7": "4.1.7_vite@6.3.5__picomatch@4.0.2",
     "npm:@types/react-dom@^19.1.5": "19.1.5_@types+react@19.1.4",
     "npm:@types/react@^19.1.4": "19.1.4",
@@ -980,6 +981,16 @@
       "dependencies": [
         "tslib"
       ]
+    },
+    "@tabler/icons-react@3.33.0_react@19.1.0": {
+      "integrity": "sha512-ay+HDecCjmFl25Lg14hcl59ffSjnOcgfrlV14shu8Qjbz+Xh4LRus93DuoyLQte8YSxE7Pe5gnEz6OF0GtwNtw==",
+      "dependencies": [
+        "@tabler/icons",
+        "react"
+      ]
+    },
+    "@tabler/icons@3.33.0": {
+      "integrity": "sha512-NZeFfzcYe7xcBHR3zKoCSrw/cFWvfj6LjenPQ48yVMTGdX854HH9nH44ZfMH8rrDzHBllfjwl4CIX6Vh2tyN0Q=="
     },
     "@tailwindcss/node@4.1.7": {
       "integrity": "sha512-9rsOpdY9idRI2NH6CL4wORFY0+Q6fnx9XP9Ju+iq/0wJwGD5IByIgFmwVbyy4ymuyprj8Qh4ErxMKTUL4uNh3g==",
@@ -3052,6 +3063,7 @@
         "npm:@astrojs/react@^4.2.7",
         "npm:@radix-ui/react-slot@^1.2.3",
         "npm:@radix-ui/react-tooltip@^1.2.7",
+        "npm:@tabler/icons-react@^3.33.0",
         "npm:@tailwindcss/vite@^4.1.7",
         "npm:@types/react-dom@^19.1.5",
         "npm:@types/react@^19.1.4",
