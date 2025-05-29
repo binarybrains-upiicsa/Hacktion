@@ -6,7 +6,6 @@ labels: bug
 assignees: ''
 ---
 
-
 **URL donde ocurre el error: ** (Ejemplo: https://hacktion.com/contacto)
 
 **Pasos para reproducir el error**
@@ -25,4 +24,4 @@ assignees: ''
 
 **Información adicional** (Cualquier otro detalle que sea de ayuda)
 
-*Gracias por ayudarnos a mejorar la pagina web. Danos una descripción concisa de que es el bug*
+_Gracias por ayudarnos a mejorar la pagina web. Danos una descripción concisa de que es el bug_
