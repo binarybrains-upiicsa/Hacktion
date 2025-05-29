@@ -2,7 +2,6 @@
 name: Nueva funcionalidad
 about: Solicitar un nueva funcionalidad para la pagina o flujo de trabajo
 title: "[FEAT] Describe brevemente la nueva funcioalidad"
-labels: enhancement
 assignees: ''
 ---
 **Descripción:**
