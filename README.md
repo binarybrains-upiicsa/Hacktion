@@ -103,6 +103,9 @@ Te recomendamos consultar la [guía de contribución](https://opensource.guide) 
 
 <p align="right">(<a href="#readme-top">volver arriba</a>)</p>
 
+Este proyecto esta prototipado en figma por lo que hecha un vistaso a cómo esta diseñado y cual es el objetivo a lograr: 
+
+https://www.figma.com/proto/zzUihNL30PVc7Iyj5qbBvK/Hacktion2?page-id=0%3A1&node-id=1-3&viewport=403%2C459%2C0.2&t=XRLyyJcLIoZt6VVG-1&scaling=scale-down&content-scaling=fixed
 
 
 **¡Gracias a todos los que colaboraron a hacer este proyecto posible!**
