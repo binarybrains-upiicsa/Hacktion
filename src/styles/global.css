@@ -21,6 +21,7 @@
   --chart-active-dot: #000;
   --animate-marquee: marquee 5s linear infinite;
   --animate-marquee2: marquee2 5s linear infinite;
+  --font-family-base: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 .dark {
@@ -68,10 +69,12 @@
 @layer base {
   body {
     @apply text-foreground font-base bg-background;
+    font-family: var(--font-family-base);
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-heading;
+    font-family: var(--font-family-base);
   }
 }
 
