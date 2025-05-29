@@ -10,7 +10,7 @@ on:
 permissions:
   contents: write
 jobs: 
-    build:
+    check-linting:
         runs-on: ubuntu-lastest 
         steps: 
           - name: Clone repository
