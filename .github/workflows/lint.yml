@@ -1,25 +1,25 @@
 name: lint proyect
 
 on:
-    push: 
-        branches: [ main ]
-    pull_request:
-        branches: [main]
-    workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: write
-jobs: 
-    check-linting:
-        runs-on: ubuntu-lastest 
-        steps: 
-          - name: Clone repository
-            uses: actions/checkout@v4
-          - name: Install Deno
-            uses: denoland/setup-deno@v2
-            with: 
-                deno-version: v2.x
-          - name: Check formating
-            run: deno fmt --check
-          - name: check lint
-            run: deno lint
+jobs:
+  check-linting:
+    runs-on: ubuntu-lastest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+      - name: Install Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Check formating
+        run: deno fmt --check
+      - name: check lint
+        run: deno lint
