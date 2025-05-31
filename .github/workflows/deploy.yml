@@ -24,7 +24,7 @@ jobs:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
       - name: Install dependencies
-        run: npm ci
+        run: npm i
       - name: Install, build, and upload your site
         uses: withastro/action@v3
 
