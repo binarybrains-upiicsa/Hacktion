@@ -1,4 +1,6 @@
 ---
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
 const BASE = "https://binarybrains-upiicsa.github.io/hacktion";
@@ -67,7 +69,9 @@ const {
 
     <meta name="keywords" content={keywords.join(", ")} />
   </head>
-  <body>
+  <body class="min-h-dvh grid grid-rows-[auto_1fr_auto]">
+    <Navbar />
     <slot />
+    <Footer />
   </body>
 </html>

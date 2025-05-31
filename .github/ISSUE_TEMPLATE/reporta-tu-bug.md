@@ -6,8 +6,6 @@ labels: bug
 assignees: ''
 ---
 
-Gracias por ayudarnos a mejorar la pagina web. Danos una descripción concisa de que es el bug
-
 **URL donde ocurre el error: ** (Ejemplo: https://hacktion.com/contacto)
 
 **Pasos para reproducir el error**
@@ -22,8 +20,8 @@ Gracias por ayudarnos a mejorar la pagina web. Danos una descripción concisa de
 
 **¿En qué navegador y dispositivo lo viste?** (Ejemplo: opera en windows 11 o iPhone 16 con Safari)
 
-**Capturas de pantalla(opcional)** (Si puedes, adjunta una imagen del error)
+**Capturas de pantalla (opcional)** (Si puedes, adjunta una imagen del error)
 
 **Información adicional** (Cualquier otro detalle que sea de ayuda)
 
-**Gracias por tu ayuda**
+_Gracias por ayudarnos a mejorar la pagina web. Danos una descripción concisa de que es el bug_

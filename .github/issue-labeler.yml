@@ -58,6 +58,8 @@ feature:
   - support for
   - extend
   - include
+  - create
+  - crear
   - caseSensitive: false
 
 invalid:
