@@ -7,16 +7,15 @@ on:
       - main
 
 jobs:
-  chek-linting:
+  check-linting:
     name: Check Linting
-    needs: build-data
     permissions:
       contents: read
     uses: ./.github/workflows/lint.yml
 
   deploy:
     runs-on: ubuntu-latest
-    needs: [chek-linting]
+    needs: [check-linting]
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
