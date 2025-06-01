@@ -7,9 +7,13 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react({
-    experimentalReactChildren: true,
-  })],
+  site: "https://binarybrains-upiicsa.github.io",
+  base: "Hacktion",
+  integrations: [
+    react({
+      experimentalReactChildren: true,
+    }),
+  ],
 
   vite: {
     plugins: [tailwindcss()],
