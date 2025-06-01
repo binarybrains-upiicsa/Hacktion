@@ -1,1 +1,89 @@
-<nav class="flex"></nav>
+---
+import { Image } from 'astro:assets';
+---
+
+<nav class="navbar">
+  <div class="logo">
+    <a href="/">
+      <Image
+    src="/Notion1 (1).png"
+    alt="Notion"
+    width="200"
+    height="200"
+    />
+    </a>
+  </div>
+
+  <div class="linksjeje">
+    <a href="#acerca">Acerca de nosotros</a>
+    <a href="#retos">Retos</a>
+    <a href="#sede">Sede</a>
+    <a href="#highlights">Highlights</a>
+  </div>
+
+  <div class="botonesjiji">
+    <a href="/sponsor" class="btn blanco">Ser sponsor</a>
+    <a href="/Resgistro" class="btn verde">Registrate</a>
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-bottom: 2px solid #01833D;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+
+  .linksjeje {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .linksjeje a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .botonesjiji {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    border: none;
+  }
+
+  .verde{
+    background-color: #01833D;
+    color: white;
+  }
+
+  .verde:hover {
+    background-color: #01833D;
+  }
+
+  .blanco {
+    background-color: white;
+    color: #01833D;
+    border: 2px solid #01833D;
+  }
+
+  .blanco:hover {
+    background-color: #f3fff6;
+  }
+</style>
