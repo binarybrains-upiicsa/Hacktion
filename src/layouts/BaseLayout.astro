@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
 
-const BASE = "https://binarybrains-upiicsa.github.io/Hacktion/";
 const DEFAULT_KEYWORDS = [
   "hacktion",
   "notion",
@@ -14,7 +13,7 @@ const DEFAULT_KEYWORDS = [
 //TODO: Add path for the ogImag
 
 const ogImage = {
-  path: `${BASE}/favicon.svg`,
+  path: `favicon.svg`,
   alt: "A logo of the hackathon event, Hacktion",
 };
 
@@ -39,8 +38,6 @@ const {
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-
-    <base href={BASE} />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
