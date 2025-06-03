@@ -1,0 +1,23 @@
+---
+const { class: className } = Astro.props;
+---
+
+<div class={`flex flex-col md:flex-row w-11/12 md:w-3/5 h-auto gap-y-3 md:gap-x-1 mx-auto ${className}`}>
+    <div class="w-full md:w-1/2">
+        <h1 class="text-6xl">Acerca de nosotros</h1>
+        <p class="text-gray-500 font-normal">Hacktion es un hackathon hecha por la comunidad de Notion Campus Leaders 
+        en colaboración con muchas otras comunidades de desarrollo. <br>
+        <br>
+        Busca crear un espacio donde personas que van adentrando a la informática
+        puedan experimentar su primer hackathon aprendiendo de la mano de grandes
+        mentores y poniendo a prueba para poder resolver problemas de alto impacto</p>
+    </div>
+    <div class="w-full md:w-1/2 relative">
+        <div class="w-full h-full rounded-lg bg-white border-1 border-black shadow-[5px_5px_rgba(0,0,0)]">
+            <img src="/Hacktion/bbhacktion.jpg" alt="Hacktion Logo" class="w-full h-full object-cover rounded-lg" />
+            <div class="absolute bottom-0 left-0 w-full h-[8vh] bg-[#00823A] p-3 rounded-b-lg border-2 border-black items-center flex">
+                <p class="text-white text-xl font-light">Hacktion 2024 - Wizeline CDMX</p>
+            </div>
+        </div>
+    </div>
+</div>
