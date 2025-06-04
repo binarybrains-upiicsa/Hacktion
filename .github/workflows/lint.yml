@@ -4,11 +4,6 @@ on:
   pull_request:
     branches:
       - "**"
-
-  push:
-    branches:
-      - main
-
   workflow_call:
 
 jobs:
@@ -33,5 +28,5 @@ jobs:
         uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
-      - name: Check typing
+      - name: Check linting
         run: deno lint
