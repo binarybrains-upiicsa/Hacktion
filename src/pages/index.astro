@@ -4,21 +4,24 @@ import ImageCard from "../components/ui/image-card";
 ---
 <BaseLayout title="Hacktion">
   <main class="">
-    <section class="flex flex-col items-stretch md:flex-row w-11/12 md:w-3/5 h-auto gap-y-3 md:gap-x-3 mx-auto">
-      <div class="w-full md:w-1/2">
-        <h2 class="text-6xl">Acerca de nosotros</h2>
-        <p class="text-gray-500 font-normal">
-          Hacktion es un hackathon hecha por la comunidad de Notion Campus Leaders en colaboración
-          con muchas otras comunidades de desarrollo. <br>
-          <br>
-          Busca crear un espacio donde personas que van adentrando a la informática puedan
-          experimentar su primer hackathon aprendiendo de la mano de grandes mentores y poniendo a
-          prueba para poder resolver problemas de alto impacto
-        </p>
+    <section class="flex flex-col items-stretch lg:flex-row w-11/12 md:w-3/5 h-auto gap-y-3 md:gap-x-3 mx-auto">
+      <div class="w-full lg:w-1/2 text-center lg:text-left">
+        <h2 class="md:text-6xl text-4xl mb-2">Acerca de nosotros</h2>
+        <div class="text-gray-500 font-normal space-y-4">
+          <p>
+            Hacktion es un hackathon hecha por la comunidad de Notion Campus Leaders en colaboración
+            con muchas otras comunidades de desarrollo.
+          </p>
+          <p>
+            Busca crear un espacio donde personas que van adentrando a la informática puedan
+            experimentar su primer hackathon aprendiendo de la mano de grandes mentores y poniendo a
+            prueba para poder resolver problemas de alto impacto
+          </p>
+        </div>
       </div>
 
       <ImageCard
-        className="w-2/5 h-auto mx-auto bg-[#00823A]"
+        className="lg:w-2/5 md:w-3/5 w-full h-auto mx-auto bg-[#00823A]"
         caption="Hacktion 2024 - Wizeline CDMX"
         imageUrl="/Hacktion/bbhacktion.jpg"
       ></ImageCard>
