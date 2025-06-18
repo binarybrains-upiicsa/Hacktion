@@ -1,17 +1,18 @@
 ---
-import { Image } from 'astro:assets';
-import { Button } from 'src/components/ui/button'
+import { Image } from "astro:assets";
+import { Button } from "src/components/ui/button";
 ---
 
 <nav class="navbar">
-    <div class="izquierda">
+  <div class="izquierda">
     <div class="logo">
       <a href="/">
         <Image
-      src="/Hacktion/hacktion.png"
-      alt="Notion"
-      width="90"
-      height="20"/>
+          src="/Hacktion/hacktion.png"
+          alt="Notion"
+          width="90"
+          height="20"
+        />
       </a>
     </div>
 
@@ -22,62 +23,60 @@ import { Button } from 'src/components/ui/button'
       <a href="#highlights">Highlights</a>
     </div>
   </div>
-    <div class="botonesjiji">
-      <Button className="blanco">Sé sponsor</Button>
-      <Button className="verde">Registrate</Button>
-    </div>
+  <div class="botonesjiji">
+    <Button className="blanco">Sé sponsor</Button>
+    <Button className="verde">Registrate</Button>
+  </div>
 </nav>
-
-
 
 <style>
   .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: .10rem 5rem;
-  background-color: white;
-  border-bottom: 2px solid #01833D;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.10rem 5rem;
+    background-color: white;
+    border-bottom: 2px solid #01833d;
+  }
 
-.izquierda {
-  display: flex;
-  align-items: center;
-  gap: 4rem;
-}
+  .izquierda {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
 
-.linksjeje {
-  display: flex;
-  gap: 2rem;
-}
+  .linksjeje {
+    display: flex;
+    gap: 2rem;
+  }
 
-.linksjeje a {
-  color: black;
-  font-size: 18px;
-  text-decoration: none;
-  font-weight: bold;
-}
+  .linksjeje a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-.botonesjiji {
-  display: flex;
-  gap: 1rem;
-}
+  .botonesjiji {
+    display: flex;
+    gap: 1rem;
+  }
 
-.verde {
-  background-color: #01833D;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: .5rem;
-  font-weight: bold;
-  border: none;
-}
+  .verde {
+    background-color: #01833d;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: none;
+  }
 
-.blanco {
-  background-color: rgb(191, 240, 186);
-  color: #01833D;
-  border: 2px solid #01833D;
-  padding: 1rem 2rem;
-  border-radius: 0.5rem;
-  font-weight: bold;
-}
+  .blanco {
+    background-color: rgb(191, 240, 186);
+    color: #01833d;
+    border: 2px solid #01833d;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
 </style>
